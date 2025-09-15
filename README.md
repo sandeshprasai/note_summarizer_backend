@@ -41,15 +41,16 @@ This project is in the **very early stages of development**.
     ```
     The server will start on `http://localhost:8000`.
 
-    
+
 ## 📁 Project Structure
-note_summarizer_backend/
-├── Controller/     # Handles request logic
-├── Model/          # Data models / schemas
-├── Routes/         # API routes
-├── Utills/         # Helper functions
-├── index.js        # Entry point
-├── package.json
-├── package-lock.json
-└── .gitignore
+ - **Folder Structure**:  
+  - `Controller/` → Handles request and response logic.  
+  - `Model/` → Placeholder for data models / schemas.  
+  - `Routes/` → API route definitions.  
+  - `Utills/` → Utility/helper functions.  
+- **Entry Point**: `index.js` created as the main server file.  
+- **Basic Routing**: Initial routes set up under `Routes/`.  
+- **Environment Setup**:  
+  - `package.json` and `package-lock.json` configured.  
+  - `.gitignore` added.  
 
